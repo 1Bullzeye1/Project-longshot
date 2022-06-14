@@ -6,7 +6,7 @@ spark = SparkSession \
   .appName('spark-bigquery-demo') \
   .getOrCreate()
 # .config("spark.jars",r"jars/spark-bigquery-with-dependencies_2.11-0.25.0.jar") \
-
+###
 print(spark)
 # Use the Cloud Storage bucket for temporary BigQuery export data used
 # by the connector.
