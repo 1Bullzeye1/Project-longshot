@@ -8,8 +8,6 @@ spark = SparkSession.builder.getOrCreate()
 # df = spark.createDataFrame([(1, 2, 3, 4)], [' 1', '%2', ',3', '(4)'])
 
 df = spark.read.csv(r"C:\Users\Administrator\Desktop\spchar.csv",header = True)
-
-
 print("----------Original Data------------")
 df.show()
 print("-----------filtered Data------------")
