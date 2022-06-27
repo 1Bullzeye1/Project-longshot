@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb2cfee7-bf7b-4cff-a8d7-22242c57ec0f" name="Changes" comment="update to project">
-      <change beforePath="$PROJECT_DIR$/Scripts/bigquery-connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bigquery-connector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/createclust.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/createclust.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/schema_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/schema_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/bigquery-connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bigquery-connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/createclust.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/createclust.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20220625_0002",
-    "last_opened_file_path": "C:/Users/Administrator/PycharmProjects/Project-longshot/Scripts/bigquery-connector.py",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220626_0004&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/PycharmProjects/Project-longshot/Scripts/bigquery-connector.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -62,7 +61,28 @@
       <recent name="C:\Users\Administrator\PycharmProjects\Project-longshot\Scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bigquery-connector">
+  <component name="RunManager" selected="Python.bigquery-connector (1)">
+    <configuration name="bigquery-connector (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project-longshot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/bigquery-connector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bigquery-connector" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Project-longshot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +96,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\Project-longshot\scripts\bigquery-connector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="createclust" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project-longshot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/createclust.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,27 +188,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="validation and sc removal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project-longshot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\Project-longshot\Scripts\validation and sc removal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project-longshot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,13 +211,16 @@
     </configuration>
     <list>
       <item itemvalue="Python.bigquery-connector" />
+      <item itemvalue="Python.bigquery-connector (1)" />
+      <item itemvalue="Python.createclust" />
       <item itemvalue="Python.schema_test" />
       <item itemvalue="Python.test corrupt" />
       <item itemvalue="Python.validation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.schema_test (1)" />
+        <item itemvalue="Python.bigquery-connector (1)" />
+        <item itemvalue="Python.createclust" />
         <item itemvalue="Python.validation" />
         <item itemvalue="Python.validation" />
         <item itemvalue="Python.schema_test" />
@@ -262,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656135438407</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update to project">
+      <created>1656136502455</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656136502455</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

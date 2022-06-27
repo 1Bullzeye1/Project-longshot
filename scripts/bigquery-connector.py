@@ -21,12 +21,14 @@ class sparksession:
     #     .set("fs.gs.impl", "com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem")
     # spark._jsc.hadoopConfiguration()\
     #     .set("fs.AbstractFileSystem.gs.impl", "com.google.cloud.hadoop.fs.gcs.GoogleHadoopFS")
-    def bucketrdr(self):
-        df = self.spark.read.option("header", True).csv("gs://buk_zero/departments.csv")
+    def bucketrdr(self,path):
+        df = self.spark.read.option("header", True).csv(path=path)
 
     # .option("fs.gs.impl", "com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem")\
     # .option("fs.AbstractFileSystem.gs.impl", "com.google.cloud.hadoop.fs.gcs.GoogleHadoopFS")\
-        return df
+        return df.show()
 
-
-
+if __name__ == "__main__":
+    path = "gs://buk_zero/departments.csv"
+    s = sparksession()
+    s.bucketrdr(path)
