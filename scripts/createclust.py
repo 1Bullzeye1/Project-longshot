@@ -21,8 +21,8 @@ def create_cluster(project_id, region, cluster_name):
         "project_id": project_id,
         "cluster_name": cluster_name,
         "config": {
-            "master_config": {"num_instances": 1, "machine_type_uri": "n1-standard-2"},
-            "worker_config": {"num_instances": 2, "machine_type_uri": "n1-standard-2"},
+            "master_config": {"num_instances": 1, "machine_type_uri": "n1-standard-2","disk_config":{"boot_disk_size_gb":50}},
+            "worker_config": {"num_instances": 2, "machine_type_uri": "n1-standard-2","disk_config":{"boot_disk_size_gb":50}}
         },
     }
 
@@ -36,4 +36,4 @@ def create_cluster(project_id, region, cluster_name):
     print(f"Cluster created successfully: {result.cluster_name}")
 
 
-create_cluster("procrastinated-city-46778","US","new_project")
+create_cluster("procrastinated-city-46778","us-east1","new-project")

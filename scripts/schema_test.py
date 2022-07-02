@@ -15,6 +15,10 @@ class Schema():
     items = []
     # print( length )
 
+
+    # df2 = spark.read.json(r"../config/schema.json")
+    # # print(df2.schema)
+
     for i in range(length):
         items.append((json.JSONDecoder(object_pairs_hook = OrderedDict).decode(ds)[i].items()))
     print(items)
@@ -29,27 +33,37 @@ S = Schema()
 mapping = S.mapping
 od1 = S.items
 
+print(od1)
 
 schema = []
 
 for item in od1:
     schema.append([StructField(k,mapping.get(v.lower())(),True) for k,v in item])
-schema = [y for x in [schema[i] for i in range(len(schema))] for y in x]
+print(len(schema))
 
-valschema = StructType(schema)
+
+# schema1 = [y for x in [schema[i] for i in range(len(schema))] for y in x]
+# print(StructType(schema1))
+#nested list comprehension above  , equal for loop below:
+y = []
+for i in range(len(schema)):
+
+    for x in schema[i]:
+        y.append(x)
+
+valschema = StructType(y)
 print(valschema)
 
 
 
-df = spark.read.csv(r"C:\Users\Administrator\Desktop\spchar.csv",header = True,inferSchema = True)
-print(df.schema)
-
-###---------for making valid Schema-------------
-dS = []
-for i in df.schema:
-    for j in valschema:
-        if i==j:
-            dS.append(i)
-dataSchema = StructType(dS)
-print(dataSchema)
-
+# df = spark.read.csv(r"C:\Users\Administrator\Desktop\spchar.csv",header = True,inferSchema = True)
+# print(df.schema)
+#
+# ###---------for making valid Schema-------------
+# dS = []
+# for i in df.schema:
+#     for j in valschema:
+#         if i==j:
+#             dS.append(i)
+# dataSchema = StructType(dS)
+# print(dataSchema)
