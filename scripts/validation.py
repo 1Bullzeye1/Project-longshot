@@ -1,13 +1,12 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
-import re
 import sys
 
 spark = SparkSession.builder.getOrCreate()
 # df = spark.createDataFrame([(1, 2, 3, 4)], [' 1', '%2', ',3', '(4)'])
 
-df = spark.read.csv(r"C:\Users\Administrator\Desktop\spchar.csv",header = True)
+df = spark.read.csv(r"/home/mike/spchar.csv",header = True)
 print("----------Original Data------------")
 df.show()
 print("-----------filtered Data------------")
@@ -42,6 +41,7 @@ pat2 = '^[a-z|A-Z|0-9]*$'
 #     if c != "emailid":
 #         d1 = df.filter(col(c).rlike(pat2))
 #         d1.show()
+
 for c in df.columns:
     if c == "emailid":
         pass
@@ -69,7 +69,7 @@ for c in df.columns:
 bad_records.show()
 # --------using udf --------------
 
-filterdf = y.filter(udf())
+filterdf = bad_records.filter(udf())
 filterdf.show()
 
 

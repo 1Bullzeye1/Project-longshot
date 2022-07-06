@@ -36,4 +36,4 @@ def create_cluster(project_id, region, cluster_name):
     print(f"Cluster created successfully: {result.cluster_name}")
 
 
-create_cluster("procrastinated-city-46778","us-east1","new-project")
+create_cluster()
