@@ -18,7 +18,7 @@ outinvalbuck = config.get("paths","outcorruptbuckloc")
 buck_nm = config.get("paths","buck_nm")
 strschema = config.get("paths","strschema")
 strschema1 = config.get("paths","strschema1")
-key = config.get("paths","jsonkey")
+key = config.get("paths","jsonkey1")
 
 #validation inputs
 nullval = config.get("columnval","null").replace(' ','').split(',')
@@ -93,8 +93,8 @@ if __name__ == "__main__":
 
     #uploading file to bucket:
 
-    # up = f.upfile(dataframe = fildf,location = outvalbuck,filename =  filename)
-    # upinval= f.upinvalfile(dataframe = nofildf,location = outinvalbuck,filename = filename)
+    up = f.upfile(dataframe = fildf,location = outvalbuck,filename =  filename)
+    upinval= f.upinvalfile(dataframe = nofildf,location = outinvalbuck,filename = filename)
 
     #creating table
 
