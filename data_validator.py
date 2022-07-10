@@ -13,8 +13,3 @@ from pyspark.sql.types import *
 # df = df.withColumn("date_from_text", F.regexp_extract(df.text, r"(\b(?:[M|m]ar(?:ch)?)\b [0-9]+,?(?: |)\d{4})", 0))
 # df.show()
 
-a=1
-b=int('1')
-
-print(a/2)
-print(b/2)

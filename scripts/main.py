@@ -1,118 +1,101 @@
-from google.cloud import storage
-from google.cloud import bigquery
-
-from pyspark import SparkContext,SparkConf
+import configparser
+import re
 from pyspark.sql import SparkSession
-import gcsfs
-import json
-from pyspark.sql.functions import *
-from pyspark.sql.types import *
+from all_validation import *
+from google.cloud import storage,bigquery
+from google.cloud import dataproc_v1 as dataproc
+
+# ---------reading from config file-------------------
+config = configparser.ConfigParser()
+config.read(r"../config/config.ini")
+
+inputfile = config.get("paths","inpfile")
+schemafile = config.get("paths","jsonschema")
+schemafile1 = config.get("paths","jsonschema1")
+inpbuck = config.get("paths","inpbuckloc")
+outvalbuck = config.get("paths","outvalidbuckloc")
+outinvalbuck = config.get("paths","outcorruptbuckloc")
+buck_nm = config.get("paths","buck_nm")
+strschema = config.get("paths","strschema")
+strschema1 = config.get("paths","strschema1")
+key = config.get("paths","jsonkey")
+
+#validation inputs
+nullval = config.get("columnval","null").replace(' ','').split(',')
+spchval = config.get("columnval","spch").replace(' ','').split(',')
+emailval = config.get("columnval","email").replace(' ','').split(',')
+
+#bucket inputs and outputs
+timestamp = config.get("bigquery","datetime")
+project_id = config.get("bigquery","project_id")
+dataset = config.get("bigquery","dataset")
+
+class sparksession:
+    spark = SparkSession.builder.config("spark.jars", r"../Utils/gcs-connector-latest-hadoop2.jar") \
+            .master('local[*]').appName('spark-bigquery-demo').getOrCreate()
+
+    spark._jsc.hadoopConfiguration().set("google.cloud.auth.service.account.json.keyfile", key)
 
 
-if __name__ == '__main__':
-    sparkconf = SparkConf().setAppName("Spark Context Init").setMaster("local[*]")
-    sc = SparkContext(conf=sparkconf)
-    # print(sc)
-    spark = SparkSession.builder.appName("Spark Session Init").master("local[*]").getOrCreate()
-    # print(spark)
+class filesingest:
 
+    def fllist(self,bucket,timestamp):
+        #creating Client object
+        client = storage.Client()
+        buckets = client.get_bucket(bucket)
+        files = list(buckets.list_blobs())
+        list1 = []
+        for item in files:
+            if re.search(timestamp,item.name):
+                list1.append(item.name.split('.')[0])
+        return list1
 
+    def upfile(self,dataframe,filename,location):
 
-obj_client = storage.Client()
-obj_client1 = bigquery.Client()
+        filepath = '{}/{}.csv'.format(location,filename)
 
-print("this is bucket list :")
-buck_list = obj_client.list_buckets()
-for i in buck_list:
-    print("  >  ",i.name)
+        dataframe.write.mode('overwrite').csv(filepath)
 
-buck_name = str(input("enter bucket name which you want to process: "))
+    def upinvalfile(self,dataframe,filename,location):
+        filepath = '{}/{}.csv'.format(location, filename)
 
-buck = obj_client.get_bucket(buck_name)
-filename = list(buck.list_blobs(prefix=""))
-print("These are files in {} bucket".format(buck_name))
-for i in filename:
-    print("  >  ",i.name)
+        dataframe.write.mode('overwrite').csv(filepath)
 
-to_be_process = str(input("enter file name which you want to process: "))
-read_file_path = "gs://{}/{}".format(buck_name, to_be_process)
-main_df = spark.read.csv(read_file_path, header=True, inferSchema=True)
+    def bigquery(self,dataframe,project,dataset,filename,schema):
 
-main_df_count = main_df.count()
-null_df_count = main_df.dropna().count()
+        client = bigquery.Client()
+        table_id = "{}.{}.{}".format(project,dataset,filename)
+        table = bigquery.Table(table_id, schema = schema)
+        table = client.create_table(table)
+        print(
+            "Created table {}.{}.{}".format(table.project, table.dataset_id, table.table_id)
+        )
 
-initial_schar_count = 0
-for i in main_df.columns:
-    special_char = main_df.filter(main_df[i].rlike('[@_!#$%^&*()<>?/\|}{~:]')).count()
-    initial_schar_count = special_char + initial_schar_count
+if __name__ == "__main__":
+    s = sparksession()
+    f = filesingest()
+    filename  = f.fllist(bucket = buck_nm,timestamp = timestamp)
+    #creating dataframe object
+    v = valid(spark = s.spark,schema = schemafile1,inputfile = inputfile,
+              strschema =strschema1,nullval = nullval,spch = spchval,emailcol = emailval)
+    #creating Schema
+    struct = v.sch_a()
 
-fs = gcsfs.GCSFileSystem("warm-alliance-352004")
-with fs.open("gs://data_engineer1/stud_info.config") as stud:
-    stud_info = json.load(stud)
+    #getting nonenull and null dataframes
+    nonnull,null = v.nullval(schema = struct)
 
-d_types = {
-    "string": StringType(),
-    "integer": IntegerType()
-}
+    #getting dataframe from special character filter
+    dfnospch,dfspch = v.spch_(nonenull = nonnull,null = null)
 
-schema_to_compare = StructType()
+    #passing filtered dataframe to email validation
 
-for i in stud_info:
-    schema_to_compare.add(i["col_name"], d_types[i["col_type"]], True)
+    fildf,nofildf = v.email(nospch = dfnospch,spch = dfspch)
 
-source_bucket = obj_client.bucket(buck_name)
-source_file = source_bucket.blob(to_be_process)
-pass_destination_bucket = obj_client.bucket("pass_file_pract1")
-fail_destination_bucket = obj_client.bucket("fail_file_pract1")
+    #uploading file to bucket:
 
-schema11 = [
-    bigquery.SchemaField("id", "integer"),
-    bigquery.SchemaField("name", "string"),
-    bigquery.SchemaField("class", "string"),
-    bigquery.SchemaField("marks", "integer"),
-    bigquery.SchemaField("gender", "string")
-]
+    # up = f.upfile(dataframe = fildf,location = outvalbuck,filename =  filename)
+    # upinval= f.upinvalfile(dataframe = nofildf,location = outinvalbuck,filename = filename)
 
-if main_df_count == null_df_count:
-    if initial_schar_count < 1:
-        if schema_to_compare == main_df.schema:
-            file_copy = source_bucket.copy_blob(source_file, pass_destination_bucket, to_be_process)
-            print("The {} file has successfully pass the validation criteria ".format(to_be_process))
-            if 1 == 1:
-                buck11 = obj_client.get_bucket(pass_destination_bucket)
-                filename11 = list(buck11.list_blobs(prefix=""))
-                print("These are files in {} bucket".format(pass_destination_bucket))
-                for i in filename11:
-                    print("  >  ",i.name)
+    #creating table
 
-                transfer_to_bq = str(input("enter file name which you want to transfer: "))
-                ext_of_file = str(input("enter file ext which you want to transfer: "))
-
-                table1 = bigquery.Table("warm-alliance-352004.cloudproject1.{}".format(transfer_to_bq), schema11)
-                table = obj_client1.create_table(table1)
-
-                load_conf = bigquery.LoadJobConfig(schema=schema11, skip_leading_rows=1)
-                gcs_path = "gs://pass_file_pract1/{}{}".format(transfer_to_bq, ext_of_file)
-                load_job = obj_client1.load_table_from_uri(
-                    project="warm-alliance-352004",
-                    source_uris=gcs_path,
-                    destination="cloudproject1.{}".format(transfer_to_bq),
-                    location="US",
-                    job_config=load_conf,
-                    job_id_prefix="loadcsv"
-                )
-                load_job.result()
-                print("{} file has been transfer to BigQuery".format(to_be_process))
-
-        else:
-            file_copy = source_bucket.copy_blob(source_file, fail_destination_bucket, to_be_process)
-            print("Opps, failed due to schema ")
-    else:
-        file_copy = source_bucket.copy_blob(source_file, fail_destination_bucket, to_be_process)
-        print("Opps, failed due to Special char ")
-else:
-    file_copy = source_bucket.copy_blob(source_file, fail_destination_bucket, to_be_process)
-    print("Opps, failed due to null value ")
-
-
-
+    BQ_ = f.bigquery(dataframe = fildf,project = project_id,dataset=dataset,filename = filename,schema = struct)

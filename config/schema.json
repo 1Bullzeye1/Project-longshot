@@ -1,8 +1,45 @@
 [
-  {"id": "integer"},
-  {"name":  "string"},
-  {"city":  "string"},
-  {"emailid":  "string"}
+  {
+      "name": "emp_id",
+      "type": "integer",
+      "nullable": "true"
+  },
+  {
+      
+      "name": "fname",
+      "type": "string",
+      "nullable": "true"
+  },
+  {
+      
+      "name": "lname",
+      "type": "string",
+      "nullable": "true"
+  },
+  {
+      
+      "name": "age",
+      "type": "integer",
+      "nullable": "true"
+  },
+  {
+      
+      "name": "gender",
+      "type": "string",
+      "nullable": "true"
+  },
+  {
+      
+      "name": "salary",
+      "type": "integer",
+      "nullable": "true"
+  },
+  {
+      
+      "name": "emailid",
+      "type": "string",
+      "nullable": "true"
+  }
 ]
 
 

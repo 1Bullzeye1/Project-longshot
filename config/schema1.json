@@ -1,0 +1,52 @@
+{
+    "type": "struct",
+    "fields": [
+    {
+      "metadata" : { },
+      "name": "emp_id",
+      "type": "integer",
+      "nullable": false
+    },
+    {
+      "metadata" : { },
+      "name": "fname",
+      "type": "string",
+      "nullable": false
+    },
+    {
+      "metadata" : { },
+      "name": "lname",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata" : { },
+      "name": "age",
+      "type": "integer",
+      "nullable": true
+    },
+    {
+      "metadata" : { },
+      "name": "gender",
+      "type": "string",
+      "nullable": true
+    },
+    {
+      "metadata" : { },
+      "name": "salary",
+      "type": "integer",
+      "nullable": true
+    },
+    {
+      "metadata" : { },
+      "name": "emailid",
+      "type": "string",
+      "nullable": true
+    }
+  ]
+}
+
+
+
+
+

@@ -1,0 +1,51 @@
+{
+  "fields": [
+  { 
+    "metadata" : { },
+    "name":"id",
+    "type":"string",
+    "nullable" : "false"
+  },
+  {
+    "metadata" : { },
+     "name": "fname",
+    "type" : "string",
+    "nullable" : "false"
+  },
+  {
+    "metadata" : { },
+    "name":"lname",
+    "type": "string",
+    "nullable" : "false"
+  },
+  { 
+    "metadata" : { },
+    "name":"age",
+    "type": "string",
+    "nullable" : "true"
+  },
+  { 
+    "metadata" : { },
+    "name":"gender",
+    "type": "string",
+    "nullable" : "true"
+  },
+  { 
+    "metadata" : { },
+    "name":"salary",
+    "type": "string",
+    "nullable" : "false"
+  },
+  { 
+    "metadata" : { },
+    "name":"emailid",
+    "type": "string",
+    "nullable" : "false"
+  }
+],
+"type": "struct"
+}
+
+
+
+
