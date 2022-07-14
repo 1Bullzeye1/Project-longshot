@@ -1,0 +1,511 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_7_3_22,_1_57_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_7_3_22,_1_57_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_7_3_22,_1_57_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_7_3_22,_1_57_PM_[Changes]/shelved.patch	(revision 33052f7eae045704a4ddc8ee70738201b4071858)
++++ /dev/null	(revision 33052f7eae045704a4ddc8ee70738201b4071858)
+@@ -1,44 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"cb2cfee7-bf7b-4cff-a8d7-22242c57ec0f\" name=\"Changes\" comment=\"update to project\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_TAGS\">\n      <GitPushTagMode>\n        <option name=\"argument\" value=\"--follow-tags\" />\n        <option name=\"title\" value=\"Current Branch\" />\n      </GitPushTagMode>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2AVTTfeSJNL2otuPZghKZKXBAnW\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"com.google.cloudcode.ide_session_index\": \"20220627_0002\",\n    \"last_opened_file_path\": \"C:/Users/Administrator/PycharmProjects/Project-longshot/Scripts/bigquery-connector.py\",\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\"\n  }\n}]]></component>\n  <component name=\"Push.Settings\">\n    <force-push-targets>\n      <force-push-target remote-path=\"origin\" branch=\"main\" />\n    </force-push-targets>\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\Utils\" />\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\" />\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\ddl\" />\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\config\" />\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\Scripts\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Python.createclust\">\n    <configuration name=\"bigquery-connector (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Project-longshot\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/scripts\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/scripts/bigquery-connector.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"bigquery-connector\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\n      <module name=\"Project-longshot\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Scripts\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\\bigquery-connector.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"createclust\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Project-longshot\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/scripts\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/scripts/createclust.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"schema_test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Project-longshot\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\\schema_test.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"schema_test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Project-longshot\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\Scripts\\schema_test.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"test corrupt\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Project-longshot\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/test corrupt.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"validation\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Project-longshot\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\\validation.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <list>\n      <item itemvalue=\"Python.bigquery-connector\" />\n      <item itemvalue=\"Python.bigquery-connector (1)\" />\n      <item itemvalue=\"Python.createclust\" />\n      <item itemvalue=\"Python.schema_test\" />\n      <item itemvalue=\"Python.test corrupt\" />\n      <item itemvalue=\"Python.validation\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.createclust\" />\n        <item itemvalue=\"Python.bigquery-connector (1)\" />\n        <item itemvalue=\"Python.validation\" />\n        <item itemvalue=\"Python.validation\" />\n        <item itemvalue=\"Python.schema_test\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"cb2cfee7-bf7b-4cff-a8d7-22242c57ec0f\" name=\"Changes\" comment=\"\" />\n      <created>1655093761958</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1655093761958</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"new project for\">\n      <created>1655185254902</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655185254902</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"new project for\">\n      <created>1655185537409</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655185537409</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"new project for gcp\">\n      <created>1655185702763</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655185702763</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"update\">\n      <created>1655185878806</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655185878806</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"update\">\n      <created>1655185922752</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655185922752</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"update\">\n      <created>1655186724399</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655186724399</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"update to project\">\n      <created>1656135438407</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1656135438407</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"update to project\">\n      <created>1656136502455</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1656136502455</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"update to project\">\n      <created>1656291578854</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1656291578854</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"update to project\">\n      <created>1656292905552</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1656292905552</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"11\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"new project for\" />\n    <MESSAGE value=\"new project for gcp\" />\n    <MESSAGE value=\"update\" />\n    <MESSAGE value=\"update to project\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update to project\" />\n  </component>\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 8ec4b5b8efe460f906a71d07386ac848cb9d935e)
+-+++ b/.idea/workspace.xml	(date 1656836818341)
+-@@ -34,15 +34,15 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "RunOnceActivity.OpenProjectViewOnStart": "true",
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "com.google.cloudcode.ide_session_index": "20220627_0002",
+--    "last_opened_file_path": "C:/Users/Administrator/PycharmProjects/Project-longshot/Scripts/bigquery-connector.py",
+--    "settings.editor.selected.configurable": "preferences.pluginManager"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220627_0002&quot;,
+-+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/PycharmProjects/Project-longshot/Scripts/bigquery-connector.py&quot;,
+-+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="Push.Settings">
+-     <force-push-targets>
+-       <force-push-target remote-path="origin" branch="main" />
+-@@ -206,8 +206,8 @@
+-       <method v="2" />
+-     </configuration>
+-     <list>
+--      <item itemvalue="Python.bigquery-connector" />
+-       <item itemvalue="Python.bigquery-connector (1)" />
+-+      <item itemvalue="Python.bigquery-connector" />
+-       <item itemvalue="Python.createclust" />
+-       <item itemvalue="Python.schema_test" />
+-       <item itemvalue="Python.test corrupt" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_7_3_22__1_57_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_7_3_22__1_57_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_7_3_22__1_57_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_7_3_22__1_57_PM__Changes_.xml	(revision 33052f7eae045704a4ddc8ee70738201b4071858)
++++ /dev/null	(revision 33052f7eae045704a4ddc8ee70738201b4071858)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_7_3_22,_1_57_PM_[Changes]" date="1656836855613" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_3_22,_1_57_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 7/3/22, 1:57 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM__Changes_.xml	(revision 33052f7eae045704a4ddc8ee70738201b4071858)
++++ /dev/null	(revision 33052f7eae045704a4ddc8ee70738201b4071858)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM_[Changes]" date="1657076367646" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 7/6/2022 8:28 AM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_7_6_2022_8_28_AM_[Changes]/shelved.patch	(revision 33052f7eae045704a4ddc8ee70738201b4071858)
++++ /dev/null	(revision 33052f7eae045704a4ddc8ee70738201b4071858)
+@@ -1,365 +0,0 @@
+-Index: scripts/schema_test.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>from pyspark.sql import *\r\nfrom pyspark.sql.functions import *\r\nfrom pyspark.sql.types import *\r\nfrom collections import *\r\nimport json\r\n\r\nspark = SparkSession.builder.appName(\"PCM\").getOrCreate()\r\n\r\nclass Schema():\r\n\r\n    with open(r\"../config/schema.json\") as file:\r\n        ds = file.read()\r\n    length = len(ds.split(','))\r\n\r\n    items = []\r\n    # print( length )\r\n\r\n\r\n    # df2 = spark.read.json(r\"../config/schema.json\")\r\n    # # print(df2.schema)\r\n\r\n    for i in range(length):\r\n        items.append((json.JSONDecoder(object_pairs_hook = OrderedDict).decode(ds)[i].items()))\r\n    print(items)\r\n\r\n    mapping = {\"string\": StringType, \"integer\": IntegerType,\r\n               \"float\": FloatType, \"date\": DateType,\r\n               \"long\": LongType, \"double\": DoubleType,\r\n               \"timestamp\": TimestampType, \"decimal\": DecimalType  }\r\n    # print(mapping)\r\n\r\nS = Schema()\r\nmapping = S.mapping\r\nod1 = S.items\r\n\r\nprint(od1)\r\n\r\nschema = []\r\n\r\nfor item in od1:\r\n    schema.append([StructField(k,mapping.get(v.lower())(),True) for k,v in item])\r\nprint(len(schema))\r\n\r\n\r\n# schema1 = [y for x in [schema[i] for i in range(len(schema))] for y in x]\r\n# print(StructType(schema1))\r\n#nested list comprehension above  , equal for loop below:\r\ny = []\r\nfor i in range(len(schema)):\r\n\r\n    for x in schema[i]:\r\n        y.append(x)\r\n\r\nvalschema = StructType(y)\r\nprint(valschema)\r\n\r\n\r\n\r\n# df = spark.read.csv(r\"C:\\Users\\Administrator\\Desktop\\spchar.csv\",header = True,inferSchema = True)\r\n# print(df.schema)\r\n#\r\n# ###---------for making valid Schema-------------\r\n# dS = []\r\n# for i in df.schema:\r\n#     for j in valschema:\r\n#         if i==j:\r\n#             dS.append(i)\r\n# dataSchema = StructType(dS)\r\n# print(dataSchema)\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/scripts/schema_test.py b/scripts/schema_test.py
+---- a/scripts/schema_test.py	(revision 1875bd897c516c402838402b218be14450aecb5e)
+-+++ b/scripts/schema_test.py	(date 1657037784591)
+-@@ -1,59 +1,25 @@
+--from pyspark.sql import *
+--from pyspark.sql.functions import *
+- from pyspark.sql.types import *
+--from collections import *
+- import json
+- 
+--spark = SparkSession.builder.appName("PCM").getOrCreate()
+- 
+--class Schema():
+-+# making schema in structtype format
+- 
+-+class Schema:
+-+    # first making dictionary of key value pairs of Schema
+-     with open(r"../config/schema.json") as file:
+-         ds = file.read()
+--    length = len(ds.split(','))
+--
+--    items = []
+--    # print( length )
+--
+--
+--    # df2 = spark.read.json(r"../config/schema.json")
+--    # # print(df2.schema)
+--
+--    for i in range(length):
+--        items.append((json.JSONDecoder(object_pairs_hook = OrderedDict).decode(ds)[i].items()))
+--    print(items)
+-+    dict_ = json.loads(ds)
+- 
+-     mapping = {"string": StringType, "integer": IntegerType,
+-                "float": FloatType, "date": DateType,
+-                "long": LongType, "double": DoubleType,
+--               "timestamp": TimestampType, "decimal": DecimalType  }
+--    # print(mapping)
+--
+--S = Schema()
+--mapping = S.mapping
+--od1 = S.items
+--
+--print(od1)
+--
+--schema = []
+--
+--for item in od1:
+--    schema.append([StructField(k,mapping.get(v.lower())(),True) for k,v in item])
+--print(len(schema))
+--
+--
+--# schema1 = [y for x in [schema[i] for i in range(len(schema))] for y in x]
+--# print(StructType(schema1))
+--#nested list comprehension above  , equal for loop below:
+--y = []
+--for i in range(len(schema)):
+--
+--    for x in schema[i]:
+--        y.append(x)
+--
+--valschema = StructType(y)
+--print(valschema)
+--
+-+               "timestamp": TimestampType, "decimal": DecimalType}
+-+    sc = []
+-+    for item in dict_:
+-+        sc.append(StructField(item['name'], mapping.get(item['type'].lower())(), item['nullable']))
+-+    # print(sc)
+-+    schema = StructType(sc)
+-+    # print(schema)
+- 
+- 
+- # df = spark.read.csv(r"C:\Users\Administrator\Desktop\spchar.csv",header = True,inferSchema = True)
+-Index: scripts/bigquery-connector.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>from pyspark.sql import SparkSession\r\nimport sys\r\nfrom google.cloud import storage,bigquery\r\nfrom google.cloud import dataproc_v1 as dataproc\r\n\r\n\r\n\r\n\r\nclass sparksession:\r\n    spark = SparkSession \\\r\n            .builder \\\r\n            .config(\"spark.jars\", r\"../Utils/gcs-connector-latest-hadoop2.jar\") \\\r\n            .master('local[*]') \\\r\n            .appName('spark-bigquery-demo') \\\r\n            .getOrCreate()\r\n\r\n    spark._jsc.hadoopConfiguration()\\\r\n            .set(\"google.cloud.auth.service.account.json.keyfile\",\r\n            r\"C:\\Users\\Administrator\\Downloads\\procrastinated-city-46778-0957e750ee24.json\")\r\n    # spark._jsc.hadoopConfiguration()\\\r\n    #     .set(\"fs.gs.impl\", \"com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem\")\r\n    # spark._jsc.hadoopConfiguration()\\\r\n    #     .set(\"fs.AbstractFileSystem.gs.impl\", \"com.google.cloud.hadoop.fs.gcs.GoogleHadoopFS\")\r\n    def bucketrdr(self,path):\r\n        df = self.spark.read.option(\"header\", True).csv(path=path)\r\n\r\n    # .option(\"fs.gs.impl\", \"com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem\")\\\r\n    # .option(\"fs.AbstractFileSystem.gs.impl\", \"com.google.cloud.hadoop.fs.gcs.GoogleHadoopFS\")\\\r\n        return df.show()\r\n\r\nif __name__ == \"__main__\":\r\n    path = \"gs://buk_zero/departments.csv\"\r\n    s = sparksession()\r\n    s.bucketrdr(path)\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/scripts/bigquery-connector.py b/scripts/bigquery-connector.py
+---- a/scripts/bigquery-connector.py	(revision 1875bd897c516c402838402b218be14450aecb5e)
+-+++ b/scripts/bigquery-connector.py	(date 1657037846658)
+-@@ -2,8 +2,7 @@
+- import sys
+- from google.cloud import storage,bigquery
+- from google.cloud import dataproc_v1 as dataproc
+--
+--
+-+from schema_test import Schema
+- 
+- 
+- class sparksession:
+-@@ -22,13 +21,14 @@
+-     # spark._jsc.hadoopConfiguration()\
+-     #     .set("fs.AbstractFileSystem.gs.impl", "com.google.cloud.hadoop.fs.gcs.GoogleHadoopFS")
+-     def bucketrdr(self,path):
+--        df = self.spark.read.option("header", True).csv(path=path)
+-+        df = self.spark.read.options(header = True).csv(path=path)
+- 
+-     # .option("fs.gs.impl", "com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem")\
+-     # .option("fs.AbstractFileSystem.gs.impl", "com.google.cloud.hadoop.fs.gcs.GoogleHadoopFS")\
+--        return df.show()
+-+        return df
+- 
+- if __name__ == "__main__":
+-     path = "gs://buk_zero/departments.csv"
+-     s = sparksession()
+--    s.bucketrdr(path)
+-+    a = s.bucketrdr(path)
+-+    a.show()
+-\ No newline at end of file
+-Index: edit.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>x = (\"apple\",\"banana\",\"orange\")\r\na = set(x)\r\ny = (\"orange\",\"guava\")\r\nb = set(y)\r\nprint(a)\r\nprint(b)\r\n\r\nprint(a.intersection_update(b))\r\nprint(a.intersection(b))\r\nprint(a.symmetric_difference_update(b))\r\nprint(a.symmetric_difference(b))\r\n\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/edit.py b/edit.py
+---- a/edit.py	(revision 1875bd897c516c402838402b218be14450aecb5e)
+-+++ b/edit.py	(date 1657027845828)
+-@@ -1,12 +1,28 @@
+--x = ("apple","banana","orange")
+--a = set(x)
+--y = ("orange","guava")
+--b = set(y)
+--print(a)
+--print(b)
+-+class Abc:
+-+    def _init_(self,x,y):
+-+        self.x=x
+-+        self.y=y
+-+        print("x:",self.x)
+-+        print("y:",self.y)
+-+        print("today is sunday")
+-+    def xyz(self):
+-+        print("Hi I am Parent class")
+-+    def mnr(self):
+-+        print("Hi i am team BW")
+-+class Pqr(Abc):
+- 
+--print(a.intersection_update(b))
+--print(a.intersection(b))
+--print(a.symmetric_difference_update(b))
+--print(a.symmetric_difference(b))
+-+    def _init_(self,x,y,z): #constructor override
+-+        self.x = x
+-+        self.y=y
+-+        self.z=z
+-+        # print("z:",z)
+-+        # super()._init_(x,y)
+-+        print("python batch 2022")
+-+    def abc(self):
+-+        print("Hello {},{},{}".format(self.x,self.y,self.z),)
+-+    def xyz(self): #method override
+-+        super().xyz()
+-+        print("hi i am child class")
+-+a=Pqr()
+- 
+-+a.abc()
+-\ No newline at end of file
+-Index: data_validator.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>from pyspark import SparkConf,  SparkContext\r\nfrom pyspark.sql import SparkSession, functions as F\r\nfrom pyspark.sql.types import *\r\n\r\n# sc = SparkContext(conf=SparkConf())\r\n# spark = SparkSession(sc)\r\n#\r\n# text = [\"March 8,2019\", \"march 8, 2019\", \"march 8 2019\",\r\n#         \"mar 30 2019\", \"Countermarch 8,2019 feet\", \"marched\"]\r\n#\r\n# df = spark.createDataFrame(text, StringType()).toDF(\"text\")\r\n#\r\n# df = df.withColumn(\"date_from_text\", F.regexp_extract(df.text, r\"(\\b(?:[M|m]ar(?:ch)?)\\b [0-9]+,?(?: |)\\d{4})\", 0))\r\n# df.show()\r\n\r\na=1\r\nb=int('1')\r\n\r\nprint(a/2)\r\nprint(b/2)
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/data_validator.py b/data_validator.py
+---- a/data_validator.py	(revision 1875bd897c516c402838402b218be14450aecb5e)
+-+++ b/data_validator.py	(date 1657025267016)
+-@@ -13,8 +13,3 @@
+- # df = df.withColumn("date_from_text", F.regexp_extract(df.text, r"(\b(?:[M|m]ar(?:ch)?)\b [0-9]+,?(?: |)\d{4})", 0))
+- # df.show()
+- 
+--a=1
+--b=int('1')
+--
+--print(a/2)
+--print(b/2)
+-\ No newline at end of file
+-Index: config/schema.json
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>[\r\n  {\"id\": \"integer\"},\r\n  {\"name\":  \"string\"},\r\n  {\"city\":  \"string\"},\r\n  {\"emailid\":  \"string\"}\r\n]\r\n\r\n\r\n\r\n\r\n\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/config/schema.json b/config/schema.json
+---- a/config/schema.json	(revision 1875bd897c516c402838402b218be14450aecb5e)
+-+++ b/config/schema.json	(date 1657030007911)
+-@@ -1,8 +1,20 @@
+- [
+--  {"id": "integer"},
+--  {"name":  "string"},
+--  {"city":  "string"},
+--  {"emailid":  "string"}
+-+  { "name":"id",
+-+    "type":"integer",
+-+    "nullable" : "false"
+-+  },
+-+  { "name": "name",
+-+    "type" : "string",
+-+    "nullable" : "false"
+-+  },
+-+  { "name":"city",
+-+    "type": "string",
+-+    "nullable" : "true"
+-+  },
+-+  { "name":"emailid",
+-+    "type": "string",
+-+    "nullable" : "false"
+-+  }
+- ]
+- 
+- 
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cb2cfee7-bf7b-4cff-a8d7-22242c57ec0f\" name=\"Changes\" comment=\"update to project\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/config/schema.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/config/schema.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/scripts/createclust.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/scripts/createclust.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/scripts/schema_test.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/scripts/schema_test.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/scripts/validation.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/scripts/validation.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--follow-tags\" />\r\n        <option name=\"title\" value=\"Current Branch\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2AVTTfeSJNL2otuPZghKZKXBAnW\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220702_0000&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/PycharmProjects/Project-longshot&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"Push.Settings\">\r\n    <force-push-targets>\r\n      <force-push-target remote-path=\"origin\" branch=\"main\" />\r\n    </force-push-targets>\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\Utils\" />\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\" />\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\ddl\" />\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\config\" />\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\Scripts\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.validation\">\r\n    <configuration name=\"bigquery-connector\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Scripts\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\\bigquery-connector.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"data_validator\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/data_validator.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"edit\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/edit.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"practice\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/practice.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"schema_test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/scripts\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/scripts/schema_test.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"schema_test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\Scripts\\schema_test.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"validation\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/scripts/validation.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.bigquery-connector\" />\r\n      <item itemvalue=\"Python.edit\" />\r\n      <item itemvalue=\"Python.data_validator\" />\r\n      <item itemvalue=\"Python.practice\" />\r\n      <item itemvalue=\"Python.validation\" />\r\n      <item itemvalue=\"Python.schema_test\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.validation\" />\r\n        <item itemvalue=\"Python.edit\" />\r\n        <item itemvalue=\"Python.schema_test\" />\r\n        <item itemvalue=\"Python.data_validator\" />\r\n        <item itemvalue=\"Python.practice\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cb2cfee7-bf7b-4cff-a8d7-22242c57ec0f\" name=\"Changes\" comment=\"\" />\r\n      <created>1655093761958</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1655093761958</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"new project for\">\r\n      <created>1655185254902</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185254902</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"new project for\">\r\n      <created>1655185537409</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185537409</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"new project for gcp\">\r\n      <created>1655185702763</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185702763</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"update\">\r\n      <created>1655185878806</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185878806</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"update\">\r\n      <created>1655185922752</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185922752</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"update\">\r\n      <created>1655186724399</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655186724399</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"update to project\">\r\n      <created>1656135438407</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656135438407</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"update to project\">\r\n      <created>1656136502455</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656136502455</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"update to project\">\r\n      <created>1656291578854</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656291578854</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"update to project\">\r\n      <created>1656292905552</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656292905552</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"update to project\">\r\n      <created>1656319013828</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656319013828</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"12\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"new project for\" />\r\n    <MESSAGE value=\"new project for gcp\" />\r\n    <MESSAGE value=\"update\" />\r\n    <MESSAGE value=\"update to project\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update to project\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 1875bd897c516c402838402b218be14450aecb5e)
+-+++ b/.idea/workspace.xml	(date 1657076287713)
+-@@ -4,9 +4,10 @@
+-     <list default="true" id="cb2cfee7-bf7b-4cff-a8d7-22242c57ec0f" name="Changes" comment="update to project">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/config/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/schema.json" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/scripts/createclust.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/createclust.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/data_validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_validator.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/edit.py" beforeDir="false" afterPath="$PROJECT_DIR$/edit.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/scripts/bigquery-connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/bigquery-connector.py" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/scripts/schema_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/schema_test.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/scripts/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/validation.py" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -28,6 +29,9 @@
+-       </GitPushTagMode>
+-     </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-+  </component>
+-+  <component name="HighlightingSettingsPerFile">
+-+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2022.1/python_stubs/121723227/builtins.py" root0="SKIP_INSPECTION" />
+-   </component>
+-   <component name="MarkdownSettingsMigration">
+-     <option name="stateVersion" value="1" />
+-@@ -42,11 +46,15 @@
+-   </component>
+-   <component name="PropertiesComponent">{
+-   &quot;keyToString&quot;: {
+-+    &quot;ACTIVE_CLOUD_PROJECT_ACCOUNT&quot;: &quot;may.sonawane143@gmail.com&quot;,
+-+    &quot;ACTIVE_CLOUD_PROJECT_ID&quot;: &quot;procrastinated-city-46778&quot;,
+-+    &quot;ACTIVE_CLOUD_PROJECT_NAME&quot;: &quot;procrastinated-city-46778&quot;,
+-+    &quot;ACTIVE_CLOUD_PROJECT_NUMBER&quot;: &quot;392047018604&quot;,
+-     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+--    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220702_0000&quot;,
+-+    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220705_0004&quot;,
+-     &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/PycharmProjects/Project-longshot&quot;,
+--    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+-+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+-   }
+- }</component>
+-   <component name="Push.Settings">
+-@@ -63,8 +71,8 @@
+-       <recent name="C:\Users\Administrator\PycharmProjects\Project-longshot\Scripts" />
+-     </key>
+-   </component>
+--  <component name="RunManager" selected="Python.validation">
+--    <configuration name="bigquery-connector" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+-+  <component name="RunManager" selected="Python.bigquery-connector (1)">
+-+    <configuration name="bigquery-connector (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-       <module name="Project-longshot" />
+-       <option name="INTERPRETER_OPTIONS" value="" />
+-       <option name="PARENT_ENVS" value="true" />
+-@@ -72,11 +80,11 @@
+-         <env name="PYTHONUNBUFFERED" value="1" />
+-       </envs>
+-       <option name="SDK_HOME" value="" />
+--      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts" />
+-+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+-       <option name="IS_MODULE_SDK" value="true" />
+-       <option name="ADD_CONTENT_ROOTS" value="true" />
+-       <option name="ADD_SOURCE_ROOTS" value="true" />
+--      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\Project-longshot\scripts\bigquery-connector.py" />
+-+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/bigquery-connector.py" />
+-       <option name="PARAMETERS" value="" />
+-       <option name="SHOW_COMMAND_LINE" value="false" />
+-       <option name="EMULATE_TERMINAL" value="false" />
+-@@ -85,7 +93,7 @@
+-       <option name="INPUT_FILE" value="" />
+-       <method v="2" />
+-     </configuration>
+--    <configuration name="data_validator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+-+    <configuration name="bigquery-connector" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+-       <module name="Project-longshot" />
+-       <option name="INTERPRETER_OPTIONS" value="" />
+-       <option name="PARENT_ENVS" value="true" />
+-@@ -93,11 +101,11 @@
+-         <env name="PYTHONUNBUFFERED" value="1" />
+-       </envs>
+-       <option name="SDK_HOME" value="" />
+--      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts" />
+-       <option name="IS_MODULE_SDK" value="true" />
+-       <option name="ADD_CONTENT_ROOTS" value="true" />
+-       <option name="ADD_SOURCE_ROOTS" value="true" />
+--      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_validator.py" />
+-+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\Project-longshot\scripts\bigquery-connector.py" />
+-       <option name="PARAMETERS" value="" />
+-       <option name="SHOW_COMMAND_LINE" value="false" />
+-       <option name="EMULATE_TERMINAL" value="false" />
+-@@ -212,20 +220,20 @@
+-       <method v="2" />
+-     </configuration>
+-     <list>
+-+      <item itemvalue="Python.bigquery-connector (1)" />
+-       <item itemvalue="Python.bigquery-connector" />
+-       <item itemvalue="Python.edit" />
+--      <item itemvalue="Python.data_validator" />
+-       <item itemvalue="Python.practice" />
+--      <item itemvalue="Python.validation" />
+-       <item itemvalue="Python.schema_test" />
+-+      <item itemvalue="Python.validation" />
+-     </list>
+-     <recent_temporary>
+-       <list>
+-+        <item itemvalue="Python.bigquery-connector (1)" />
+-         <item itemvalue="Python.validation" />
+--        <item itemvalue="Python.edit" />
+-         <item itemvalue="Python.schema_test" />
+--        <item itemvalue="Python.data_validator" />
+-         <item itemvalue="Python.practice" />
+-+        <item itemvalue="Python.edit" />
+-       </list>
+-     </recent_temporary>
+-   </component>
+-@@ -315,7 +323,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1656319013828</updated>
+-     </task>
+--    <option name="localTasksCounter" value="12" />
+-+    <task id="LOCAL-00012" summary="update to project">
+-+      <created>1656776507012</created>
+-+      <option name="number" value="00012" />
+-+      <option name="presentableId" value="LOCAL-00012" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1656776507012</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="13" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cb2cfee7-bf7b-4cff-a8d7-22242c57ec0f\" name=\"Changes\" comment=\"last_update\">\r\n      <change beforePath=\"$PROJECT_DIR$/config/config.ini\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/config/config.ini\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/scripts/main.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/scripts/main.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--follow-tags\" />\r\n        <option name=\"title\" value=\"Current Branch\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2022.1/python_stubs/121723227/builtins.py\" root0=\"SKIP_INSPECTION\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2AVTTfeSJNL2otuPZghKZKXBAnW\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <OptionsSetting value=\"false\" id=\"Update\" />\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"com.google.cloudcode.ide_session_index\": \"20220710_0001\",\r\n    \"last_opened_file_path\": \"D:/project/pcm-gcp-migration-master\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\"\r\n  }\r\n}]]></component>\r\n  <component name=\"Push.Settings\">\r\n    <force-push-targets>\r\n      <force-push-target remote-path=\"origin\" branch=\"main\" />\r\n    </force-push-targets>\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\config\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\Utils\" />\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\" />\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\ddl\" />\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\config\" />\r\n      <recent name=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\Scripts\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.main (1)\">\r\n    <configuration name=\"all_validation (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/scripts\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/scripts/all_validation.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"all_validation\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/scripts\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\\all_validation.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"bigquery-connector\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Scripts\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\\bigquery-connector.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"edit\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/edit.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/scripts\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/scripts/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Scripts\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\\main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/scripts\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\scripts\\main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"schema_test\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Administrator\\PycharmProjects\\Project-longshot\\Scripts\\schema_test.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"validation\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Project-longshot\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/scripts/validation.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.bigquery-connector\" />\r\n      <item itemvalue=\"Python.main\" />\r\n      <item itemvalue=\"Python.all_validation\" />\r\n      <item itemvalue=\"Python.all_validation (1)\" />\r\n      <item itemvalue=\"Python.schema_test\" />\r\n      <item itemvalue=\"Python.main (1)\" />\r\n      <item itemvalue=\"Python.edit\" />\r\n      <item itemvalue=\"Python.validation\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.main (1)\" />\r\n        <item itemvalue=\"Python.all_validation (1)\" />\r\n        <item itemvalue=\"Python.all_validation\" />\r\n        <item itemvalue=\"Python.validation\" />\r\n        <item itemvalue=\"Python.main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cb2cfee7-bf7b-4cff-a8d7-22242c57ec0f\" name=\"Changes\" comment=\"\" />\r\n      <created>1655093761958</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1655093761958</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"new project for\">\r\n      <created>1655185254902</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185254902</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"new project for\">\r\n      <created>1655185537409</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185537409</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"new project for gcp\">\r\n      <created>1655185702763</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185702763</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"update\">\r\n      <created>1655185878806</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185878806</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"update\">\r\n      <created>1655185922752</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655185922752</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"update\">\r\n      <created>1655186724399</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1655186724399</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"update to project\">\r\n      <created>1656135438407</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656135438407</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"update to project\">\r\n      <created>1656136502455</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656136502455</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"update to project\">\r\n      <created>1656291578854</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656291578854</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"update to project\">\r\n      <created>1656292905552</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656292905552</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"update to project\">\r\n      <created>1656319013828</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656319013828</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"last_update\">\r\n      <created>1657439890235</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1657439890235</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"13\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"new project for\" />\r\n    <MESSAGE value=\"new project for gcp\" />\r\n    <MESSAGE value=\"update\" />\r\n    <MESSAGE value=\"update to project\" />\r\n    <MESSAGE value=\"last_update\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"last_update\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/scripts/all_validation.py</url>\r\n          <line>23</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 33052f7eae045704a4ddc8ee70738201b4071858)
++++ b/.idea/workspace.xml	(date 1657787764888)
+@@ -2,8 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="cb2cfee7-bf7b-4cff-a8d7-22242c57ec0f" name="Changes" comment="last_update">
+-      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/scripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -41,15 +40,19 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "com.google.cloudcode.ide_session_index": "20220710_0001",
+-    "last_opened_file_path": "D:/project/pcm-gcp-migration-master",
+-    "settings.editor.selected.configurable": "preferences.pluginManager"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ACTIVE_CLOUD_PROJECT_ACCOUNT&quot;: &quot;may.sonawane143@gmail.com&quot;,
++    &quot;ACTIVE_CLOUD_PROJECT_ID&quot;: &quot;pcm-project-355405&quot;,
++    &quot;ACTIVE_CLOUD_PROJECT_NAME&quot;: &quot;pcm-project&quot;,
++    &quot;ACTIVE_CLOUD_PROJECT_NUMBER&quot;: &quot;347749158381&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220710_0001&quot;,
++    &quot;last_opened_file_path&quot;: &quot;D:/project/pcm-gcp-migration-master&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="Push.Settings">
+     <force-push-targets>
+       <force-push-target remote-path="origin" branch="main" />
+@@ -370,7 +373,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1657439890235</updated>
+     </task>
+-    <option name="localTasksCounter" value="13" />
++    <task id="LOCAL-00013" summary="last_update">
++      <created>1657440388199</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1657440388199</updated>
++    </task>
++    <option name="localTasksCounter" value="14" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">

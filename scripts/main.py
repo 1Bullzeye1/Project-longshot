@@ -15,6 +15,7 @@ schemafile1 = config.get("paths","jsonschema1")
 inpbuck = config.get("paths","inpbuckloc")
 outvalbuck = config.get("paths","outvalidbuckloc")
 outinvalbuck = config.get("paths","outcorruptbuckloc")
+temp_buck = config.get("paths","temp_buck")
 buck_nm = config.get("paths","buck_nm")
 strschema = config.get("paths","strschema")
 strschema1 = config.get("paths","strschema1")
@@ -31,23 +32,23 @@ project_id = config.get("bigquery","project_id")
 dataset = config.get("bigquery","dataset")
 
 class sparksession:
-    spark = SparkSession.builder.config("spark.jars", r"../Utils/gcs-connector-latest-hadoop2.jar") \
-            .master('local[*]').appName('spark-bigquery-demo').getOrCreate()
+    spark = SparkSession.builder \
+    .config('spark.jars.packages','com.google.cloud.spark:spark-bigquery-with-dependencies_2.12:0.22.0,com.google.cloud.bigdataoss:gcs-connector:hadoop3-1.9.5,com.google.guava:guava:r05') \
+    .master('local[*]').appName('spark-bigquery-demo').getOrCreate()
 
     spark._jsc.hadoopConfiguration().set("google.cloud.auth.service.account.json.keyfile", key)
+    spark.conf.set('temporaryGcsBucket', temp_buck)
 
 
 class filesingest:
 
-    def fllist(self,bucket,timestamp):
+    def fllist(self,bucket):
         #creating Client object
         client = storage.Client()
         buckets = client.get_bucket(bucket)
         files = list(buckets.list_blobs())
-        list1 = []
-        for item in files:
-            if re.search(timestamp,item.name):
-                list1.append(item.name.split('.')[0])
+        for file in files:
+            list1 = file.name.split('.')[0]
         return list1
 
     def upfile(self,dataframe,filename,location):
@@ -61,10 +62,10 @@ class filesingest:
 
         dataframe.write.mode('overwrite').csv(filepath)
 
-    def bigquery(self,dataframe,project,dataset,filename,schema):
+    def bigquery(self,project,dataset,filename,schema):
 
         client = bigquery.Client()
-        table_id = "{}.{}.{}".format(project,dataset,filename)
+        table_id = f"{project}.{dataset}.{filename}"
         table = bigquery.Table(table_id, schema = schema)
         table = client.create_table(table)
         print(
@@ -74,32 +75,40 @@ class filesingest:
 if __name__ == "__main__":
     s = sparksession()
     f = filesingest()
-    filename  = f.fllist(bucket = buck_nm,timestamp = timestamp)
+    filename = f.fllist(bucket = buck_nm)
+
     #creating dataframe object
-    v = valid(spark = s.spark,schema = schemafile1,inputfile = inputfile,
+    v = valid(spark = s.spark,schema = schemafile1,schema1 = schemafile,inputfile = inputfile,
               strschema =strschema1,nullval = nullval,spch = spchval,emailcol = emailval)
+
     #creating Schema
     struct = v.sch_a()
-
+    print(struct)
     #creating bigquery schema
     bqschema = v.sch_b()
     print(bqschema)
 
-    # #getting nonenull and null dataframes
-    # nonnull,null = v.nullval(schema = struct)
-    #
-    # #getting dataframe from special character filter
-    # dfnospch,dfspch = v.spch_(nonenull = nonnull,null = null)
-    #
-    # #passing filtered dataframe to email validation
-    #
-    # fildf,nofildf = v.email(nospch = dfnospch,spch = dfspch)
-    #
-    # #uploading file to bucket:
-    #
-    # up = f.upfile(dataframe = fildf,location = outvalbuck,filename =  filename)
-    # upinval= f.upinvalfile(dataframe = nofildf,location = outinvalbuck,filename = filename)
-    #
-    # #creating table
-    #
-    # BQ_ = f.bigquery(dataframe = fildf,project = project_id,dataset=dataset,filename = filename,schema = struct)
+    #getting nonenull and null dataframes
+    nonnull,null = v.nullval(schema = struct)
+
+    #getting dataframe from special character filter
+    dfnospch,dfspch = v.spch_(nonenull = nonnull,null = null)
+
+    #passing filtered dataframe to email validation
+
+    fildf, nofildf = v.email(nospch = dfnospch,spch = dfspch)
+
+    #uploading file to bucket:
+
+    up = f.upfile(dataframe = fildf,location = outvalbuck,filename =  filename)
+    upinval= f.upinvalfile(dataframe = nofildf,location = outinvalbuck,filename = filename)
+
+    #creating table and storing data inside that
+
+    # BQ_ = f.bigquery(project = project_id,dataset=dataset,filename = filename,schema = bqschema)
+
+
+    fildf.write.format('bigquery') \
+             .option('table','{}:{}.{}'.format(project_id,dataset,filename)) \
+             .mode('append').save()
+

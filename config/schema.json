@@ -2,43 +2,43 @@
   {
       "name": "emp_id",
       "type": "integer",
-      "nullable": "true"
+      "nullable": false
   },
   {
       
       "name": "fname",
       "type": "string",
-      "nullable": "true"
+      "nullable": true
   },
   {
       
       "name": "lname",
       "type": "string",
-      "nullable": "true"
+      "nullable": true
   },
   {
       
       "name": "age",
       "type": "integer",
-      "nullable": "true"
+      "nullable": true
   },
   {
       
       "name": "gender",
       "type": "string",
-      "nullable": "true"
+      "nullable": false
   },
   {
       
       "name": "salary",
       "type": "integer",
-      "nullable": "true"
+      "nullable": true
   },
   {
       
       "name": "emailid",
       "type": "string",
-      "nullable": "true"
+      "nullable": false
   }
 ]
 

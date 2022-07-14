@@ -4,10 +4,13 @@ import json
 from google.cloud import bigquery
 
 # making schema in structtype format
+
+
+
 class valid:
     pat1 = '^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$'
     pat2 = '[@_!#$%^&*()<>?/\|}{~:]'
-    def __init__(self, spark, schema, inputfile, strschema, nullval=None, emailcol=None, spch=None,stchema = None):
+    def __init__(self, spark, schema, schema1,inputfile, strschema, nullval=None, emailcol=None, spch=None,stchema = None):
         """
 
         :param spark:spark session object
@@ -26,6 +29,10 @@ class valid:
         self.spch = spch
         self.emailcol = emailcol
         self.stschema = stchema
+        self.schema1 = schema1
+
+
+
     def sch_a(self):
         with open(self.schema, 'r') as f:
             file = f.read()
@@ -35,33 +42,22 @@ class valid:
         return stsch
 #creating schema for bigquery table
 
-    def get_field_schema(self,field):
+    def _get_field_schema(self,field):
         name = field['name']
         field_type = field.get('type', 'STRING')
-        mode = field.get('mode', 'NULLABLE')
-        fields = field.get('fields', [])
+        mode = field.get('mode','nullable')
 
-        if fields:
-            subschema = []
-            for f in fields:
-                fields_res = self.get_field_schema(f)
-                subschema.append(fields_res)
-        else:
-            subschema = []
 
-        field_schema = bigquery.SchemaField(name=name,
-                                            field_type=field_type,
-                                            mode=mode,
-                                            fields=subschema
-                                            )
+        field_schema = bigquery.SchemaField(name=name,field_type=field_type,mode=mode)
         return field_schema
+
     def sch_b(self):
-        schema =  []
-        with open(self.schema,'r') as f:
-            file  = f.read()
+        schema = []
+        with open(self.schema1,'r') as f:
+            file = f.read()
             bigsch = json.loads(file)
         for field in bigsch:
-            schema.append(self.get_field_schema(field))
+            schema.append(self._get_field_schema(field))
         return schema
 
 #null validation
@@ -72,6 +68,7 @@ class valid:
         return nonull,null
 
 #special character validation
+
     def spch_(self,nonenull,null):
         n = nonenull
         nn = null
