@@ -81,21 +81,25 @@ if __name__ == "__main__":
     #creating Schema
     struct = v.sch_a()
 
-    #getting nonenull and null dataframes
-    nonnull,null = v.nullval(schema = struct)
+    #creating bigquery schema
+    bqschema = v.sch_b()
+    print(bqschema)
 
-    #getting dataframe from special character filter
-    dfnospch,dfspch = v.spch_(nonenull = nonnull,null = null)
-
-    #passing filtered dataframe to email validation
-
-    fildf,nofildf = v.email(nospch = dfnospch,spch = dfspch)
-
-    #uploading file to bucket:
-
-    up = f.upfile(dataframe = fildf,location = outvalbuck,filename =  filename)
-    upinval= f.upinvalfile(dataframe = nofildf,location = outinvalbuck,filename = filename)
-
-    #creating table
-
-    BQ_ = f.bigquery(dataframe = fildf,project = project_id,dataset=dataset,filename = filename,schema = struct)
+    # #getting nonenull and null dataframes
+    # nonnull,null = v.nullval(schema = struct)
+    #
+    # #getting dataframe from special character filter
+    # dfnospch,dfspch = v.spch_(nonenull = nonnull,null = null)
+    #
+    # #passing filtered dataframe to email validation
+    #
+    # fildf,nofildf = v.email(nospch = dfnospch,spch = dfspch)
+    #
+    # #uploading file to bucket:
+    #
+    # up = f.upfile(dataframe = fildf,location = outvalbuck,filename =  filename)
+    # upinval= f.upinvalfile(dataframe = nofildf,location = outinvalbuck,filename = filename)
+    #
+    # #creating table
+    #
+    # BQ_ = f.bigquery(dataframe = fildf,project = project_id,dataset=dataset,filename = filename,schema = struct)

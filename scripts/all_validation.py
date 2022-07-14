@@ -1,7 +1,7 @@
 from pyspark.sql.types import *
 from pyspark.sql.functions import *
 import json
-
+from google.cloud import bigquery
 
 # making schema in structtype format
 class valid:
@@ -33,6 +33,36 @@ class valid:
             stsch = StructType.fromJson(sch)
 
         return stsch
+#creating schema for bigquery table
+
+    def get_field_schema(self,field):
+        name = field['name']
+        field_type = field.get('type', 'STRING')
+        mode = field.get('mode', 'NULLABLE')
+        fields = field.get('fields', [])
+
+        if fields:
+            subschema = []
+            for f in fields:
+                fields_res = self.get_field_schema(f)
+                subschema.append(fields_res)
+        else:
+            subschema = []
+
+        field_schema = bigquery.SchemaField(name=name,
+                                            field_type=field_type,
+                                            mode=mode,
+                                            fields=subschema
+                                            )
+        return field_schema
+    def sch_b(self):
+        schema =  []
+        with open(self.schema,'r') as f:
+            file  = f.read()
+            bigsch = json.loads(file)
+        for field in bigsch:
+            schema.append(self.get_field_schema(field))
+        return schema
 
 #null validation
     def nullval(self,schema):
